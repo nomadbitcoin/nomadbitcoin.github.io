@@ -9,6 +9,8 @@ icon data science: https://www.kissclipart.com/data-analytics-icon-png-clipart-a
 icon cloud computing: https://www.internetpost.it/quali-vantaggi-offre-il-cloud-computing/
 other icon cloud: http://getdrawings.com/cloud-computing-icon-png#cloud-computing-icon-png-60.png
 
+icon computer: https://icon-library.net/icon/computer-code-icon-12.html
+
 Ibm Q:
 Other qubits:
 

@@ -199,34 +199,6 @@ a:hover {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*------/ Socials /------*/
-
-.socials {
-  padding: 1.5rem 0;
-}
-
-.socials ul li {
-  display: inline-block;
-}
-
-.socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  font-size: 1.7rem;
-  border-radius: 50%;
-  line-height: 1.4;
-  margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
-  transition: all 500ms ease;
-}
-
-.socials .ico-circle:hover {
-  background-color: #0078ff;
-  color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
-}
-
 /*------/ Ul resect /------*/
 
 .ul-resect,
@@ -701,32 +673,6 @@ a:hover {
   background-color: #0078ff;
 }
 
-
-/*======================================
-//--//-->   COUNTER
-======================================*/
-
-.counter-box {
-  color: #fff;
-  text-align: center;
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-}
-
-.counter-ico .ico-circle {
-  height: 100px;
-  width: 100px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
@@ -1021,11 +967,7 @@ a:hover {
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
-}
-
-.contact-mf {
-  margin-top: 4rem;
+  padding: 0rem 0 0 0;
 }
 
 /*======================================
@@ -1155,11 +1097,6 @@ footer .credits a {
   .card-blog {
     margin-bottom: 3rem;
   }
-
-  .contact-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1234,7 +1171,86 @@ footer .credits a {
   }
 }
 
+/*------/ Socials /------*/
+
+.socials {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.socials ul li {
+  display: inline-block;
+}
+
+.socials .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socials .ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
 /* novos componetes adicionados*/
+
+
+/* social icons */
+.medalha img{
+  width: 40px;
+  height: 40px;
+  object-fit: fill;
+}
+
+.socials .medalha {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socials .medalha:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+.windows img{
+  width: 40px;
+  height: 40px;
+  object-fit: fill;
+  padding-bottom: 6px;
+}
+
+.socials .windows {
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 10px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socials .windows:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
 
 .section-bg {
   background: #ecf5ff;
@@ -1257,7 +1273,7 @@ footer .credits a {
   width: 50%;
 }
 
-#services .box {
+#learning .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -1269,39 +1285,39 @@ footer .credits a {
 }
 
 
-#services .box:hover {
+#learning .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#learning .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#learning .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#learning .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#learning .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#learning .box:hover .title a {
   color: #007bff;
 }
 
-#services .description {
+#learning .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
