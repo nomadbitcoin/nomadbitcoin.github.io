@@ -1,3 +1,11 @@
+Editing Model
+
+Credits:
+
+Img Backgroud: https://www.ibm.com/blogs/research/2019/03/machine-learning-quantum-advantage/
+
+--------------//-----------------//-------------
+
 Thanks for downloading this theme!
 
 Theme Name: DevFolio
