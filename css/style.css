@@ -1333,3 +1333,39 @@ footer .credits a {
   width: 100%;
   opacity: .7;
 }
+
+.icon_blockchain img{
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+  position: absolute;
+  left: -25px;
+  top: calc(50% - 40px);
+}
+
+.icon_qubit img{
+  width: 90px;
+  height: 90px;
+  object-fit: fill;
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 40px);
+}
+
+.icon_data_science img {
+  width: 80px;
+  height: 70px;
+  object-fit: fill;
+  position: absolute;
+  left: -31px;
+  top: calc(50% - 20px);
+}
+
+.icon_cloud_computing img {
+  width: 80px;
+  height: 70px;
+  object-fit: fill;
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 20px);
+}
