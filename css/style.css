@@ -251,7 +251,7 @@ a:hover {
 }
 
 /*------/ Ico Circle /------*/
-
+/*
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -263,7 +263,7 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
-
+*/
 /*------/ Owl Carousel /------*/
 
 .owl-theme .owl-dots {
@@ -716,8 +716,8 @@ a:hover {
 }
 
 .counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   line-height: 1.8;
   box-shadow: 0 0 0 10px #cde1f8;
 }
@@ -1306,4 +1306,30 @@ footer .credits a {
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+}
+
+.ico-circle img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.badge_area img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.overlay-mf2 {
+  background-color: #ecf5ff; 
+}
+
+.overlay-mf2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
 }
