@@ -1371,3 +1371,10 @@ footer .credits a {
   left: -20px;
   top: calc(50% - 20px);
 }
+
+
+#cert_area .box_cert {margin: 5px; position: relative; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out;}
+
+#cert_area .box_cert:hover{ -webkit-transform: translateY(-5px); transform: translateY(-5px);}
+
+#cert_area img { width: 210px; height: 150px; object-fit: fill; border-radius: 8px;}
