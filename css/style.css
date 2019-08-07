@@ -1222,18 +1222,10 @@ footer .credits a {
 
 .ico-circle img {width: 100px; height: 100px; object-fit: fill}
 
-.overlay-mf2 { background-color: #ecf5ff}
-.overlay-mf2 {position: absolute; top: 0; left: 0px; padding: 0; height: 100%; width: 100%; opacity: .7}
-
-
-
 /* more section */
-#more img {width: 200px; height: 200px; object-fit: fill; display: block; margin-left: auto; margin-right: auto; align-content: center;}
+#more img {padding-bottom:10px; width: 200px; height: 200px; object-fit: fill; display: block; margin-left: auto; margin-right: auto; align-content: center;}
 #more .box_cert {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out}
 #more .box_cert:hover{ -webkit-transform: translateY(-5px); transform: translateY(-5px)}
-
-
-
 
 /* certificates section */
 #cert_area .box_cert {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out}
