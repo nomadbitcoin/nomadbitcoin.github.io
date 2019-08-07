@@ -55,7 +55,7 @@ a:hover {
 .service-box,
 .work-box,
 .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .box-shadow-a,
@@ -83,6 +83,7 @@ a:hover {
 }
 
 .bg-image {
+  height: 300px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -1148,6 +1149,7 @@ footer .credits a {
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
+    height: 400px;
   }
 }
 
@@ -1223,9 +1225,10 @@ footer .credits a {
 .ico-circle img {width: 100px; height: 100px; object-fit: fill}
 
 /* more section */
-#more img {padding-bottom:10px; width: 200px; height: 200px; object-fit: fill; display: block; margin-left: auto; margin-right: auto; align-content: center;}
-#more .box_cert {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out}
-#more .box_cert:hover{ -webkit-transform: translateY(-5px); transform: translateY(-5px)}
+#more .more_img {width: 150px; height: 150px; object-fit: fill; display: block; margin-left: auto; margin-right: auto; margin-top: -50px; margin-bottom: 50px; align-content: center;}
+
+#more .more_img {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out}
+#more .more_img:hover{ -webkit-transform: translateY(-5px); transform: translateY(-5px)}
 
 /* certificates section */
 #cert_area .box_cert {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out}
