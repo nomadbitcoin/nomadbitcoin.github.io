@@ -1373,7 +1373,7 @@ footer .credits a {
 }
 
 
-#cert_area .box_cert {margin: 5px; position: relative; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out;}
+#cert_area .box_cert {position: center; overflow: hidden; border-radius: 10px; transition: all 0.3s ease-in-out;}
 
 #cert_area .box_cert:hover{ -webkit-transform: translateY(-5px); transform: translateY(-5px);}
 
