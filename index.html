@@ -88,10 +88,8 @@
                   </div>
                   <div class="col-sm-6 col-md-7">
                     <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Yan Luiz Coito</span></p>
-                      <p><span class="title-s">Age: </span> <span>22</span></p>
-                      <p><a href="https://www.linkedin.com/in/yanluiz" target="blank"><span class="title-s">Linkedin: </span> <span>Yan Luiz</a></span></p>
-                      <p><a href="#work"><span class="title-s">Certificates</span></a></p>
+                      <p><a href="https://www.linkedin.com/in/yanluiz" target="blank"><i class="ion-social-linkedin"></i><span class="title-s"> Yan Luiz</a></span></p>
+                      <p><a href="#more"><img height="15px" width="18px" src="img/certificate.png"><span class="title-s"> Certificates</span></a></p>
                       <p><span class="title-s"><span class="ico-circle"><i class="ion-email"></i></span></span> yan@nomadbitcoin.com</p>
                     </div>
                   </div>
@@ -219,21 +217,26 @@
     </section><!-- #services -->
   
   <!-- Start More Section -->
+  <!-- Start More Section -->
   <section id="more">
-  <div class="paralax-mf bg-image" style="background-image: url(img/ibm-q.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="conteiner">
-      <div class="row">
-        <div class="col-md-6 col-lg-6" data-wow-delay="0.1s" data-wow-duration="1.4s">
-          <span><a href="" target="blank"><img class="more_img" src="img/certificate.png"></a></span>
-        </div>
-        <div class="col-md-6 col-lg-6" data-wow-delay="0.1s" data-wow-duration="1.4s">
-          <a href="" target="blank"><img class="more_img" src="img/medalha.png"></a></span>
-        </div>
+    <div class="paralax-mf bg-image" style="background-image: url(img/ibm-q.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-md-6 col-lg-6" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <span><a href="#show"><img class="more_img" src="img/certificate.png" onclick="click_cert()" onmouseover="show_cert()" onmouseout="remove_cert()"></a></span>
+          </div>
+          <div class="col-md-6 col-lg-6" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <a href="#show"><img class="more_img" src="img/medalha.png" onclick="click_badge()"></a></span>
+          </div>
+      </div>
     </div>
-  </div>
-  </div>
-</section>
+    </div>
+  </section>
+
+<section id="show_cert">
+  <!-- javascript-->
+  </section>
 <!-- End More Section -->
 
 
@@ -421,9 +424,9 @@
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <!-- Javascript to cert and badge area-->
+  <script src="js/badge_and_cert.js"></script>
 </body>
 </html>
